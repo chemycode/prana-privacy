@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Prana Support</title>
+<meta name="description" content="Help with the Prana breathing and meditation app for iPhone and Apple Watch.">
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --fg: #1d1f24;
+    --muted: #5a5f6b;
+    --card: #ffffff;
+    --border: #e3e1da;
+    --accent: #2f6f6a;
+    --mark-bg: #fff1b8;
+    --mark-fg: #5a4300;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12141a;
+      --fg: #e8e9ec;
+      --muted: #a3a8b4;
+      --card: #1a1d25;
+      --border: #2c303b;
+      --accent: #7cc8c0;
+      --mark-bg: #4a3d0a;
+      --mark-fg: #ffe9a3;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 44rem; margin: 0 auto; padding: 2rem 1rem 4rem; }
+  header { margin-bottom: 2rem; }
+  nav.top { font-size: 0.95rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 0.5rem; letter-spacing: -0.01em; }
+  h2 { font-size: 1.35rem; line-height: 1.3; margin: 2.5rem 0 0.75rem; padding-top: 0.5rem; border-top: 1px solid var(--border); }
+  p, ul, ol { margin: 0 0 1rem; }
+  ul, ol { padding-left: 1.25rem; }
+  li { margin-bottom: 0.4rem; }
+  a { color: var(--accent); text-underline-offset: 2px; }
+  .meta { color: var(--muted); font-size: 0.95rem; margin: 0; }
+  .contact {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem 1.25rem 0.25rem;
+    margin: 1.5rem 0;
+  }
+  .contact h2 { border-top: 0; margin-top: 0; padding-top: 0; font-size: 1.15rem; }
+  .email { font-size: 1.15rem; font-weight: 600; }
+  details {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.75rem;
+  }
+  summary { cursor: pointer; font-weight: 600; }
+  details[open] summary { margin-bottom: 0.5rem; }
+  details > :last-child { margin-bottom: 0.25rem; }
+  .path { font-weight: 600; }
+  .ph {
+    background: var(--mark-bg);
+    color: var(--mark-fg);
+    padding: 0 0.25em;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.95rem; }
+</style>
+</head>
+<body>
+<main>
+<nav class="top"><a href="index.html">Privacy Policy</a></nav>
+
+<header>
+  <h1>Prana Support</h1>
+  <p class="meta">Last updated: 20 November 2026</p>
+</header>
+
+<p>Prana is a breathing and meditation app for iPhone and Apple Watch. If something isn't working, or you have a question, we're glad to help.</p>
+
+<section class="contact" aria-labelledby="help">
+  <h2 id="help">Get help</h2>
+  <p>Email us at <a class="email" href="mailto:support@jusvibe.com">support@jusvibe.com</a>.</p>
+  <p>From the app: open the <span class="path">You</span> tab, tap <span class="path">Settings</span>, then <span class="path">Contact Support</span>. This opens an email with the app version, your device type and iOS version already filled in, which helps us find the problem. You can edit it before sending. If your iPhone has no Mail account set up, Prana shows the address so you can copy it.</p>
+</section>
+
+<h2 id="faq">Frequently asked questions</h2>
+
+<details>
+  <summary>Circles say I need to sign in to iCloud</summary>
+  <p>Circles, rooms (Breathe Together) and find friends use your iCloud account. Prana has no account of its own.</p>
+  <ol>
+    <li>Open the Settings app and check that you are signed in with your Apple Account at the top.</li>
+    <li>Check that you are online.</li>
+    <li>Open Prana again and go to the Circles tab.</li>
+  </ol>
+  <p>If Prana says iCloud is turned off for this device, iCloud is restricted on it, and circles are unavailable until that changes. Sessions, history and everything else in Prana work without iCloud.</p>
+</details>
+
+<details>
+  <summary>Someone I invited to a circle wasn't found</summary>
+  <p>When you invite people from your contacts, iCloud looks for their iCloud accounts. If it can't find someone, they aren't added. Once they have Prana and are signed in to iCloud, invite them to the circle again. A circle holds up to 8 people, including the person who made it.</p>
+</details>
+
+<details>
+  <summary>How do I turn off reminders?</summary>
+  <ul>
+    <li><strong>Daily reminder:</strong> <span class="path">You</span> tab, then <span class="path">Settings</span>, then <span class="path">Notifications</span>. Turn off <span class="path">Daily Reminders</span>.</li>
+    <li><strong>Evening reminder:</strong> <span class="path">You</span> tab, then <span class="path">Settings</span>. Under <span class="path">Streak and reminders</span>, turn off <span class="path">Evening reminder</span>.</li>
+    <li><strong>A circle's ritual reminder:</strong> open the circle and turn off <span class="path">Remind me</span> under <span class="path">Ritual</span>.</li>
+    <li><strong>Alerts from one circle</strong> (sessions, nudges and breathe-backs): open the circle and turn on <span class="path">Mute alerts</span>. The ritual reminder has its own switch.</li>
+    <li><strong>Everything:</strong> in the iOS Settings app, tap <span class="path">Notifications</span>, then <span class="path">Prana</span>, and turn off <span class="path">Allow Notifications</span>.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>How do I restore my purchase?</summary>
+  <ol>
+    <li>Make sure you are signed in to the App Store with the same Apple Account you used to subscribe.</li>
+    <li>In Prana, open the <span class="path">You</span> tab, tap <span class="path">Settings</span>, then <span class="path">Subscription</span>.</li>
+    <li>Tap <span class="path">Restore Purchases</span>.</li>
+  </ol>
+  <p>Apple handles payments, billing and refunds. To manage or cancel your subscription, open the iOS Settings app, tap your name, then <span class="path">Subscriptions</span>.</p>
+</details>
+
+<details>
+  <summary>How do I report a circle, a member or a room?</summary>
+  <ul>
+    <li><strong>A circle</strong> (if you didn't create it): open the circle and tap <span class="path">Report</span> near the bottom of its page.</li>
+    <li><strong>A circle member:</strong> open the menu on their row in the circle and tap <span class="path">Report</span>.</li>
+    <li><strong>A room you joined:</strong> tap <span class="path">Report</span> at the top right of the room's waiting room.</li>
+  </ul>
+  <p>Each one opens an email to us in your Mail app, filled in with the name or title and a reference so we can tell which one you mean. Add what the problem is and send it. Nothing is sent until you send the email.</p>
+  <p>You can also <strong>Block</strong> a member from the menu on their row: you stop seeing their sessions, nudges and breathe-backs. Blocking works only on your device, and they are not told. They can still see your sessions in circles you share. To stop that, leave the circle, or remove them if you created it.</p>
+</details>
+
+<details>
+  <summary>How do I delete my data?</summary>
+  <ul>
+    <li><strong>Sessions on your iPhone:</strong> in the <span class="path">Trends</span> tab, open <span class="path">History</span>, then swipe a session to delete it.</li>
+    <li><strong>A session you shared with a circle:</strong> swipe your session in the circle's feed, or press and hold it, then tap <span class="path">Delete</span>.</li>
+    <li><strong>A circle:</strong> open it and tap <span class="path">Leave circle</span>, or <span class="path">Delete circle</span> if you created it. Deleting removes it for everyone. Leaving keeps the sessions you already shared in that circle, so delete them first if you want them gone.</li>
+    <li><strong>Find friends:</strong> in the <span class="path">You</span> tab, open <span class="path">Find friends</span> and tap <span class="path">Stop letting friends find me</span>. Do this before you delete the app.</li>
+  </ul>
+  <p>Deleting the app removes what is stored on your iPhone. It does not remove what is in iCloud or in Apple Health. The <a href="index.html#delete">privacy policy</a> explains each option in full.</p>
+</details>
+
+<details>
+  <summary>How do I change what Prana can read from Health?</summary>
+  <p>In the iOS Settings app, tap <span class="path">Privacy &amp; Security</span>, then <span class="path">Health</span>, then <span class="path">Prana</span>, and choose what Prana may read and write. You can also do this from the privacy section of your profile in the Health app. Prana never uploads Health data.</p>
+</details>
+
+<details>
+  <summary>I can't find "Find friends"</summary>
+  <p>Find friends is for people 18 and over. It appears in the <span class="path">You</span> tab only when Prana knows you are an adult from the birth year you gave. If you skipped that step, add your birth year in the <span class="path">You</span> tab under <span class="path">Settings</span>, then <span class="path">Birth year</span>. Your birth year stays on your iPhone.</p>
+</details>
+
+<footer>
+  <p><a href="index.html">Privacy Policy</a> · Email: <a href="mailto:support@jusvibe.com">support@jusvibe.com</a></p>
+</footer>
+</main>
+</body>
+</html>
